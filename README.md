@@ -4,7 +4,8 @@
 ____________________________
 # CARLA (0.9.13) with ROS Bridge for Ubuntu Noetic
 
-This guide explains how to run **CARLA 0.9.13** with the **CARLA ROS Bridge** on Ubuntu Noetic. Follow these steps to launch the CARLA simulator, start the ROS bridge, and control the ego vehicle manually.
+This guide explains how to set up and run **CARLA 0.9.13 with ROS Noetic and the CARLA ROS Bridge** for the **ALB (Adaptive Load Balancer) / AIR (Adaptive Inference Routing)** experiments. It covers launching the CARLA simulator, connecting it to ROS, spawning the ego and traffic vehicles, visualizing camera data, and manually controlling the ego vehicle.
+
 
 ---
 
@@ -23,10 +24,6 @@ This guide explains how to run **CARLA 0.9.13** with the **CARLA ROS Bridge** on
 - **CARLA 0.9.13** installed
 - **Python 3.8** or later
 - **CARLA ROS Bridge** installed
-
-# ALB / AIR — CARLA 0.9.13 + ROS Noetic Setup & Run Guide
-
-This guide describes how to set up and run **CARLA 0.9.13 with ROS Noetic** for the **ALB/AIR** experiments.
 
 > **Project naming:** The project was originally called **ALB (Adaptive Load Balancer)** and is now called **AIR (Adaptive Inference Routing)**. Some existing packages and scripts still use the old `carla_lb` naming.
 
