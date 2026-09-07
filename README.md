@@ -167,20 +167,12 @@ rosrun carla_lb spwan traffic
 The script spawns **two vehicles in front of the ego vehicle**, with approximately **10 m spacing**.
 
 ```text
-        Traffic Vehicle 1
-                🚗
-                │
-              10 m
-                │
-                ▼
-        Traffic Vehicle 2
-                🚗
-                │
-              10 m
-                │
-                ▼
-           Ego Vehicle
-                🚙
+              🚗 Vehicle 1    🚗 Vehicle 2
+                     │             │
+                     └──── 10 m ───┘
+                            │
+                            ▼
+                       🚙 Ego Vehicle
 ```
 
 ### Modify Traffic Scenario
@@ -442,6 +434,3 @@ Then launch the required **ALB/AIR nodes** for the experiment.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
