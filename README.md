@@ -157,7 +157,7 @@ source ~/catkin_ws/devel/setup.bash
 Run:
 
 ```bash
-rosrun carla_lb spwan traffic
+rosrun carla_lb spwan_traffic.py
 ```
 
 > **Note:** `spwan` is the existing script name in the project and is intentionally retained.
@@ -188,7 +188,7 @@ The traffic-spawning code can be modified to change:
 Modify the corresponding parameters in the spawning script and run:
 
 ```bash
-rosrun carla_lb spwan traffic
+rosrun carla_lb spwan_traffic.py
 ```
 
 again.
@@ -253,7 +253,7 @@ roslaunch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch
 
 ```bash
 source ~/catkin_ws/devel/setup.bash
-rosrun carla_lb spwan traffic
+rosrun carla_lb spwan_traffic.py
 ```
 
 ### Terminal 4+ — ALB/AIR Nodes
@@ -362,7 +362,7 @@ shows the CARLA ROS Bridge nodes and that the ego vehicle is already spawned.
 Then run:
 
 ```bash
-rosrun carla_lb spwan traffic
+rosrun carla_lb spwan_traffic.py
 ```
 
 ### Camera Not Visible
@@ -419,7 +419,7 @@ roslaunch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch
 ```bash
 # Terminal 3
 source ~/catkin_ws/devel/setup.bash
-rosrun carla_lb spwan traffic
+rosrun carla_lb spwan_traffic.py
 ```
 
 ```bash
